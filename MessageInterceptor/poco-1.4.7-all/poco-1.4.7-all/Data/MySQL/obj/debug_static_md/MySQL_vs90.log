@@ -1,0 +1,39 @@
+﻿Build started 12/13/2014 10:34:20 AM.
+     1>Project "D:\gopi\connectAlways\MessageInterceptor\poco-1.4.7-all\poco-1.4.7-all\Data\MySQL\MySQL_vs90.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "obj\debug_static_md\MySQL.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "obj\debug_static_md\MySQL.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\include /I..\..\Foundation\include /I..\..\Data\include /I"C:\Program Files\MySQL\MySQL Server 5.6\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D POCO_STATIC /D THREADSAFE /D __LCC__ /D _MBCS /GF /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"obj\debug_static_md\\" /Fd"..\..\lib\PocoDataMySQLmdd.pdb" /Gd /TP /analyze- /errorReport:prompt src\Binder.cpp src\Connector.cpp src\Extractor.cpp src\MySQLException.cpp src\MySQLStatementImpl.cpp src\ResultMetadata.cpp src\SessionHandle.cpp src\SessionImpl.cpp src\StatementExecutor.cpp
+         StatementExecutor.cpp
+         SessionImpl.cpp
+         SessionHandle.cpp
+         ResultMetadata.cpp
+         MySQLStatementImpl.cpp
+         MySQLException.cpp
+         Extractor.cpp
+         Connector.cpp
+         Binder.cpp
+         Generating Code...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(D:\gopi\connectAlways\MessageInterceptor\poco-1.4.7-all\poco-1.4.7-all\Data\MySQL\obj\debug_static_md\MySQL.lib) does not match the Library's OutputFile property value (D:\gopi\connectAlways\MessageInterceptor\poco-1.4.7-all\poco-1.4.7-all\lib\PocoDataMySQLmdd.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1153,5): warning MSB8012: TargetName(MySQL) does not match the Library's OutputFile property value (PocoDataMySQLmdd). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"..\..\lib\PocoDataMySQLmdd.lib" /NOLOGO obj\debug_static_md\Binder.obj
+         obj\debug_static_md\Connector.obj
+         obj\debug_static_md\Extractor.obj
+         obj\debug_static_md\MySQLException.obj
+         obj\debug_static_md\MySQLStatementImpl.obj
+         obj\debug_static_md\ResultMetadata.obj
+         obj\debug_static_md\SessionHandle.obj
+         obj\debug_static_md\SessionImpl.obj
+         obj\debug_static_md\StatementExecutor.obj
+         MySQL_vs90.vcxproj -> D:\gopi\connectAlways\MessageInterceptor\poco-1.4.7-all\poco-1.4.7-all\Data\MySQL\obj\debug_static_md\MySQL.lib
+       FinalizeBuildStatus:
+         Deleting file "obj\debug_static_md\MySQL.unsuccessfulbuild".
+         Touching "obj\debug_static_md\MySQL.lastbuildstate".
+     1>Done Building Project "D:\gopi\connectAlways\MessageInterceptor\poco-1.4.7-all\poco-1.4.7-all\Data\MySQL\MySQL_vs90.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:13.26

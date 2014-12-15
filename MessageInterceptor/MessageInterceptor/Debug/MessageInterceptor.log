@@ -1,0 +1,45 @@
+﻿Build started 12/13/2014 10:34:29 AM.
+     1>Project "D:\gopi\connectAlways\MessageInterceptor\MessageInterceptor\MessageInterceptor.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\MessageInterceptor.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug\MessageInterceptor.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"..\poco-1.4.7-all\poco-1.4.7-all\Foundation\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt EventIdentifierThread.cpp InterceptorClass.cpp RegisterThread.cpp
+         RegisterThread.cpp
+     1>d:\gopi\connectalways\messageinterceptor\messageinterceptor\registerthread.cpp(10): warning C4805: '==' : unsafe mix of type 'int' and type 'bool' in operation
+         InterceptorClass.cpp
+     1>d:\gopi\connectalways\messageinterceptor\messageinterceptor\interceptorclass.cpp(327): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(175) : see declaration of 'strncat'
+     1>d:\gopi\connectalways\messageinterceptor\messageinterceptor\interceptorclass.cpp(328): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+         EventIdentifierThread.cpp
+     1>d:\gopi\connectalways\messageinterceptor\messageinterceptor\eventidentifierthread.cpp(24): warning C4805: '==' : unsafe mix of type 'int' and type 'bool' in operation
+     1>d:\gopi\connectalways\messageinterceptor\messageinterceptor\eventidentifierthread.cpp(28): warning C4805: '==' : unsafe mix of type 'int' and type 'bool' in operation
+     1>d:\gopi\connectalways\messageinterceptor\messageinterceptor\eventidentifierthread.cpp(32): warning C4805: '==' : unsafe mix of type 'int' and type 'bool' in operation
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\MessageInterceptor.exe.embed.manifest.res" Debug\MessageInterceptor_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\gopi\connectAlways\MessageInterceptor\Debug\MessageInterceptor.exe" /INCREMENTAL /NOLOGO /LIBPATH:".\..\poco-1.4.7-all\poco-1.4.7-all\lib" /LIBPATH:".\..\jsoncpp-master\jsoncpp-master\build\vs71\debug\lib_json" json_vc71_libmtd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\MessageInterceptor.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\gopi\connectAlways\MessageInterceptor\Debug\MessageInterceptor.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\gopi\connectAlways\MessageInterceptor\Debug\MessageInterceptor.lib" /MACHINE:X86 Debug\MessageInterceptor.exe.embed.manifest.res
+         Debug\EventIdentifierThread.obj
+         Debug\InterceptorClass.obj
+         Debug\RegisterThread.obj
+       Manifest:
+         Deleting file "Debug\MessageInterceptor.exe.embed.manifest".
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\MessageInterceptor.exe.embed.manifest" /manifest Debug\MessageInterceptor.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\MessageInterceptor.exe.embed.manifest.res" Debug\MessageInterceptor_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\gopi\connectAlways\MessageInterceptor\Debug\MessageInterceptor.exe" /INCREMENTAL /NOLOGO /LIBPATH:".\..\poco-1.4.7-all\poco-1.4.7-all\lib" /LIBPATH:".\..\jsoncpp-master\jsoncpp-master\build\vs71\debug\lib_json" json_vc71_libmtd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\MessageInterceptor.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\gopi\connectAlways\MessageInterceptor\Debug\MessageInterceptor.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\gopi\connectAlways\MessageInterceptor\Debug\MessageInterceptor.lib" /MACHINE:X86 Debug\MessageInterceptor.exe.embed.manifest.res
+         Debug\EventIdentifierThread.obj
+         Debug\InterceptorClass.obj
+         Debug\RegisterThread.obj
+         MessageInterceptor.vcxproj -> D:\gopi\connectAlways\MessageInterceptor\Debug\MessageInterceptor.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\MessageInterceptor.unsuccessfulbuild".
+         Touching "Debug\MessageInterceptor.lastbuildstate".
+     1>Done Building Project "D:\gopi\connectAlways\MessageInterceptor\MessageInterceptor\MessageInterceptor.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.83

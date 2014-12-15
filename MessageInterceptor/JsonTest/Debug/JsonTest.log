@@ -1,0 +1,39 @@
+﻿Build started 12/13/2014 10:34:23 AM.
+     1>Project "D:\gopi\connectAlways\MessageInterceptor\JsonTest\JsonTest.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\JsonTest.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug\JsonTest.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt JsonTest.cpp
+         JsonTest.cpp
+     1>d:\gopi\connectalways\messageinterceptor\jsontest\jsontest.cpp(10): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>d:\gopi\connectalways\messageinterceptor\jsontest\jsontest.cpp(56): warning C4996: 'Json::Reader::getFormatedErrorMessages': Use getFormattedErrorMessages instead
+                 d:\gopi\connectalways\messageinterceptor\jsoncpp-master\jsoncpp-master\include\json\reader.h(112) : see declaration of 'Json::Reader::getFormatedErrorMessages'
+     1>d:\gopi\connectalways\messageinterceptor\jsontest\jsontest.cpp(70): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\gopi\connectalways\messageinterceptor\jsontest\jsontest.cpp(76): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\gopi\connectalways\messageinterceptor\jsontest\jsontest.cpp(28): warning C4101: 'i' : unreferenced local variable
+     1>d:\gopi\connectalways\messageinterceptor\jsontest\jsontest.cpp(28): warning C4101: 'j' : unreferenced local variable
+     1>d:\gopi\connectalways\messageinterceptor\jsontest\jsontest.cpp(84): warning C4101: 'e' : unreferenced local variable
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\JsonTest.exe.embed.manifest.res" Debug\JsonTest_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\gopi\connectAlways\MessageInterceptor\Debug\JsonTest.exe" /INCREMENTAL /NOLOGO /LIBPATH:"..\jsoncpp-master\jsoncpp-master\build\vs71\debug\lib_json" json_vc71_libmtd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\JsonTest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\gopi\connectAlways\MessageInterceptor\Debug\JsonTest.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\gopi\connectAlways\MessageInterceptor\Debug\JsonTest.lib" /MACHINE:X86 Debug\JsonTest.exe.embed.manifest.res
+         Debug\JsonTest.obj
+       Manifest:
+         Deleting file "Debug\JsonTest.exe.embed.manifest".
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\JsonTest.exe.embed.manifest" /manifest Debug\JsonTest.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\JsonTest.exe.embed.manifest.res" Debug\JsonTest_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\gopi\connectAlways\MessageInterceptor\Debug\JsonTest.exe" /INCREMENTAL /NOLOGO /LIBPATH:"..\jsoncpp-master\jsoncpp-master\build\vs71\debug\lib_json" json_vc71_libmtd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\JsonTest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\gopi\connectAlways\MessageInterceptor\Debug\JsonTest.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\gopi\connectAlways\MessageInterceptor\Debug\JsonTest.lib" /MACHINE:X86 Debug\JsonTest.exe.embed.manifest.res
+         Debug\JsonTest.obj
+         JsonTest.vcxproj -> D:\gopi\connectAlways\MessageInterceptor\Debug\JsonTest.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\JsonTest.unsuccessfulbuild".
+         Touching "Debug\JsonTest.lastbuildstate".
+     1>Done Building Project "D:\gopi\connectAlways\MessageInterceptor\JsonTest\JsonTest.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.12

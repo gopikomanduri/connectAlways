@@ -1,0 +1,14 @@
+﻿Build started 12/13/2014 8:25:44 PM.
+     1>Project "D:\gopi\connectAlways\MessageInterceptor\CachingLibrary\CachingLibrary.vcxproj" on node 2 (ClCompile target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\CachingLibrary.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt CachingLib.cpp
+         CachingLib.cpp
+     1>d:\gopi\connectalways\messageinterceptor\cachinglibrary\cachinglib.cpp(19): error C2143: syntax error : missing ',' before '...'
+     1>d:\gopi\connectalways\messageinterceptor\cachinglibrary\cachinglib.cpp(37): error C2977: 'MAP' : too many template arguments
+                 d:\gopi\connectalways\messageinterceptor\cachinglibrary\cachinglib.cpp(20) : see declaration of 'MAP'
+                 d:\gopi\connectalways\messageinterceptor\cachinglibrary\cachinglib.cpp(152) : see reference to class template instantiation 'lru_cache_using_std<K,V,MAP>' being compiled
+     1>Done Building Project "D:\gopi\connectAlways\MessageInterceptor\CachingLibrary\CachingLibrary.vcxproj" (ClCompile target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.57
