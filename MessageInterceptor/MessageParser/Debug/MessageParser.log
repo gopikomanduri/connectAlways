@@ -1,27 +1,9 @@
-﻿Build started 12/13/2014 10:34:21 AM.
-     1>Project "D:\gopi\connectAlways\MessageInterceptor\MessageParser\MessageParser.vcxproj" on node 3 (rebuild target(s)).
+﻿Build started 12/15/2014 7:03:52 AM.
+     1>Project "E:\gitRepo\ConnectAlways\connectAlways\MessageInterceptor\MessageParser\MessageParser.vcxproj" on node 2 (clean target(s)).
      1>_PrepareForClean:
          Deleting file "Debug\MessageParser.lastbuildstate".
-       InitializeBuildStatus:
-         Creating "Debug\MessageParser.unsuccessfulbuild" because "AlwaysCreate" was specified.
-       ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\MessageParser.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
-         stdafx.cpp
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\MessageParser.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt MessageParser.cpp
-         MessageParser.cpp
-     1>d:\gopi\connectalways\messageinterceptor\messageparser\messageparser.cpp(11): warning C4996: 'Json::Reader::getFormatedErrorMessages': Use getFormattedErrorMessages instead
-                 d:\gopi\connectalways\messageinterceptor\jsoncpp-master\jsoncpp-master\include\json\reader.h(112) : see declaration of 'Json::Reader::getFormatedErrorMessages'
-     1>d:\gopi\connectalways\messageinterceptor\messageparser\messageparser.cpp(35): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
-       Lib:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"D:\gopi\connectAlways\MessageInterceptor\Debug\MessageParser.lib" /NOLOGO Debug\MessageParser.obj
-         Debug\stdafx.obj
-         MessageParser.vcxproj -> D:\gopi\connectAlways\MessageInterceptor\Debug\MessageParser.lib
-       FinalizeBuildStatus:
-         Deleting file "Debug\MessageParser.unsuccessfulbuild".
-         Touching "Debug\MessageParser.lastbuildstate".
-     1>Done Building Project "D:\gopi\connectAlways\MessageInterceptor\MessageParser\MessageParser.vcxproj" (rebuild target(s)).
+     1>Done Building Project "E:\gitRepo\ConnectAlways\connectAlways\MessageInterceptor\MessageParser\MessageParser.vcxproj" (clean target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:01.28
+Time Elapsed 00:00:00.12

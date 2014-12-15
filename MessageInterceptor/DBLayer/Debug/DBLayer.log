@@ -1,20 +1,9 @@
-﻿Build started 12/13/2014 10:34:20 AM.
-     1>Project "D:\gopi\connectAlways\MessageInterceptor\DBLayer\DBLayer.vcxproj" on node 3 (rebuild target(s)).
+﻿Build started 12/15/2014 7:03:52 AM.
+     1>Project "E:\gitRepo\ConnectAlways\connectAlways\MessageInterceptor\DBLayer\DBLayer.vcxproj" on node 2 (clean target(s)).
      1>_PrepareForClean:
          Deleting file "Debug\DBLayer.lastbuildstate".
-       InitializeBuildStatus:
-         Creating "Debug\DBLayer.unsuccessfulbuild" because "AlwaysCreate" was specified.
-       ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\DBLayer.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
-         stdafx.cpp
-       Lib:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"D:\gopi\connectAlways\MessageInterceptor\Debug\DBLayer.lib" /NOLOGO Debug\stdafx.obj
-         DBLayer.vcxproj -> D:\gopi\connectAlways\MessageInterceptor\Debug\DBLayer.lib
-       FinalizeBuildStatus:
-         Deleting file "Debug\DBLayer.unsuccessfulbuild".
-         Touching "Debug\DBLayer.lastbuildstate".
-     1>Done Building Project "D:\gopi\connectAlways\MessageInterceptor\DBLayer\DBLayer.vcxproj" (rebuild target(s)).
+     1>Done Building Project "E:\gitRepo\ConnectAlways\connectAlways\MessageInterceptor\DBLayer\DBLayer.vcxproj" (clean target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.79
+Time Elapsed 00:00:00.04
